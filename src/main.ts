@@ -3,6 +3,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
+//const { createFFmpeg } = FFmpeg;
 const ffmpeg = createFFmpeg({ log: true });
 
 @Component({
